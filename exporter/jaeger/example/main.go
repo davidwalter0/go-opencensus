@@ -20,8 +20,8 @@ import (
 	"context"
 	"log"
 
-	"go.opencensus.io/exporter/jaeger"
-	"go.opencensus.io/trace"
+	"github.com/davidwalter0/go-opencensus/exporter/jaeger"
+	"github.com/davidwalter0/go-opencensus/trace"
 )
 
 func main() {

@@ -18,8 +18,8 @@ import (
 
 	"golang.org/x/net/http2"
 
-	"go.opencensus.io/stats/view"
-	"go.opencensus.io/trace"
+	"github.com/davidwalter0/go-opencensus/stats/view"
+	"github.com/davidwalter0/go-opencensus/trace"
 )
 
 func httpHandler(statusCode, respSize int) http.Handler {

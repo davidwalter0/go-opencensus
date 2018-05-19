@@ -26,8 +26,8 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"go.opencensus.io/plugin/ocgrpc"
-	"go.opencensus.io/stats/view"
+	"github.com/davidwalter0/go-opencensus/plugin/ocgrpc"
+	"github.com/davidwalter0/go-opencensus/stats/view"
 )
 
 const bytesPerKb = 1024

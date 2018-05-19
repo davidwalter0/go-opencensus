@@ -26,8 +26,8 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"go.opencensus.io/internal"
-	"go.opencensus.io/trace"
+	"github.com/davidwalter0/go-opencensus/internal"
+	"github.com/davidwalter0/go-opencensus/trace"
 )
 
 const (

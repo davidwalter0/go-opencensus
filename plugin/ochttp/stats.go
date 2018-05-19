@@ -15,9 +15,9 @@
 package ochttp
 
 import (
-	"go.opencensus.io/stats"
-	"go.opencensus.io/stats/view"
-	"go.opencensus.io/tag"
+	"github.com/davidwalter0/go-opencensus/stats"
+	"github.com/davidwalter0/go-opencensus/stats/view"
+	"github.com/davidwalter0/go-opencensus/tag"
 )
 
 // The following client HTTP measures are supported for use in custom views.

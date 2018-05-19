@@ -16,4 +16,4 @@
 // integrations for gRPC.
 //
 // Use ServerHandler for servers and ClientHandler for clients.
-package ocgrpc // import "go.opencensus.io/plugin/ocgrpc"
+package ocgrpc // import "github.com/davidwalter0/go-opencensus/plugin/ocgrpc"

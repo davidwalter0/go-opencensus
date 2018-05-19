@@ -25,7 +25,7 @@ import (
 
 	"github.com/openzipkin/zipkin-go/model"
 	httpreporter "github.com/openzipkin/zipkin-go/reporter/http"
-	"go.opencensus.io/trace"
+	"github.com/davidwalter0/go-opencensus/trace"
 )
 
 type roundTripper func(*http.Request) (*http.Response, error)

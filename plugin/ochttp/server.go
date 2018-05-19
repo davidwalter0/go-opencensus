@@ -24,10 +24,10 @@ import (
 	"sync"
 	"time"
 
-	"go.opencensus.io/stats"
-	"go.opencensus.io/tag"
-	"go.opencensus.io/trace"
-	"go.opencensus.io/trace/propagation"
+	"github.com/davidwalter0/go-opencensus/stats"
+	"github.com/davidwalter0/go-opencensus/tag"
+	"github.com/davidwalter0/go-opencensus/trace"
+	"github.com/davidwalter0/go-opencensus/trace/propagation"
 )
 
 // Handler is a http.Handler that is aware of the incoming request's span.

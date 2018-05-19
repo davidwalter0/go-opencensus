@@ -18,11 +18,11 @@ import (
 	"testing"
 	"time"
 
-	"go.opencensus.io/stats/view"
+	"github.com/davidwalter0/go-opencensus/stats/view"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc/metadata"
 
-	"go.opencensus.io/trace"
+	"github.com/davidwalter0/go-opencensus/trace"
 
 	"google.golang.org/grpc/stats"
 )

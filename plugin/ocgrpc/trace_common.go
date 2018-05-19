@@ -19,8 +19,8 @@ import (
 
 	"google.golang.org/grpc/codes"
 
-	"go.opencensus.io/trace"
-	"go.opencensus.io/trace/propagation"
+	"github.com/davidwalter0/go-opencensus/trace"
+	"github.com/davidwalter0/go-opencensus/trace/propagation"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/stats"

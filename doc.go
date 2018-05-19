@@ -13,4 +13,4 @@
 // limitations under the License.
 
 // Package opencensus contains Go support for OpenCensus.
-package opencensus // import "go.opencensus.io"
+package opencensus // import "github.com/davidwalter0/go-opencensus"

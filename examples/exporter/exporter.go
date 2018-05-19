@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package exporter // import "go.opencensus.io/examples/exporter"
+package exporter // import "github.com/davidwalter0/go-opencensus/examples/exporter"
 
 import (
 	"log"
 
-	"go.opencensus.io/stats/view"
-	"go.opencensus.io/trace"
+	"github.com/davidwalter0/go-opencensus/stats/view"
+	"github.com/davidwalter0/go-opencensus/trace"
 )
 
 // PrintExporter is a stats and trace exporter that logs

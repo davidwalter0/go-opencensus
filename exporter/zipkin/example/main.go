@@ -21,8 +21,8 @@ import (
 
 	openzipkin "github.com/openzipkin/zipkin-go"
 	"github.com/openzipkin/zipkin-go/reporter/http"
-	"go.opencensus.io/exporter/zipkin"
-	"go.opencensus.io/trace"
+	"github.com/davidwalter0/go-opencensus/exporter/zipkin"
+	"github.com/davidwalter0/go-opencensus/trace"
 )
 
 func main() {

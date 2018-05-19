@@ -18,10 +18,10 @@ import (
 	"log"
 	"net/http"
 
-	"go.opencensus.io/plugin/ochttp"
-	"go.opencensus.io/plugin/ochttp/propagation/b3"
-	"go.opencensus.io/stats/view"
-	"go.opencensus.io/tag"
+	"github.com/davidwalter0/go-opencensus/plugin/ochttp"
+	"github.com/davidwalter0/go-opencensus/plugin/ochttp/propagation/b3"
+	"github.com/davidwalter0/go-opencensus/stats/view"
+	"github.com/davidwalter0/go-opencensus/tag"
 )
 
 func ExampleTransport() {

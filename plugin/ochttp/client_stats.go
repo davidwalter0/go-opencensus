@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"go.opencensus.io/stats"
-	"go.opencensus.io/tag"
+	"github.com/davidwalter0/go-opencensus/stats"
+	"github.com/davidwalter0/go-opencensus/tag"
 )
 
 // statsTransport is an http.RoundTripper that collects stats for the outgoing requests.

@@ -15,7 +15,7 @@
 // Package prometheus contains a Prometheus exporter.
 //
 // Please note that this exporter is currently work in progress and not complete.
-package prometheus // import "go.opencensus.io/exporter/prometheus"
+package prometheus // import "github.com/davidwalter0/go-opencensus/exporter/prometheus"
 
 import (
 	"bytes"
@@ -26,9 +26,9 @@ import (
 	"sort"
 	"sync"
 
-	"go.opencensus.io/internal"
-	"go.opencensus.io/stats/view"
-	"go.opencensus.io/tag"
+	"github.com/davidwalter0/go-opencensus/internal"
+	"github.com/davidwalter0/go-opencensus/stats/view"
+	"github.com/davidwalter0/go-opencensus/tag"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"

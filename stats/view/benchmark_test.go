@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"testing"
 
-	"go.opencensus.io/stats"
-	"go.opencensus.io/tag"
+	"github.com/davidwalter0/go-opencensus/stats"
+	"github.com/davidwalter0/go-opencensus/tag"
 )
 
 var (

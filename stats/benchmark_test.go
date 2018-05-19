@@ -18,9 +18,9 @@ import (
 	"context"
 	"testing"
 
-	"go.opencensus.io/stats"
-	_ "go.opencensus.io/stats/view" // enable collection
-	"go.opencensus.io/tag"
+	"github.com/davidwalter0/go-opencensus/stats"
+	_ "github.com/davidwalter0/go-opencensus/stats/view" // enable collection
+	"github.com/davidwalter0/go-opencensus/tag"
 )
 
 var m = makeMeasure()

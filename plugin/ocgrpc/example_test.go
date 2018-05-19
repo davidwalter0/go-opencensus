@@ -17,8 +17,8 @@ package ocgrpc_test
 import (
 	"log"
 
-	"go.opencensus.io/plugin/ocgrpc"
-	"go.opencensus.io/stats/view"
+	"github.com/davidwalter0/go-opencensus/plugin/ocgrpc"
+	"github.com/davidwalter0/go-opencensus/stats/view"
 	"google.golang.org/grpc"
 )
 

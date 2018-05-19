@@ -18,8 +18,8 @@ package stats
 import (
 	"context"
 
-	"go.opencensus.io/stats/internal"
-	"go.opencensus.io/tag"
+	"github.com/davidwalter0/go-opencensus/stats/internal"
+	"github.com/davidwalter0/go-opencensus/tag"
 )
 
 func init() {

@@ -20,12 +20,12 @@ import (
 	"net/http"
 	"time"
 
-	"go.opencensus.io/zpages"
+	"github.com/davidwalter0/go-opencensus/zpages"
 
-	"go.opencensus.io/examples/exporter"
-	"go.opencensus.io/plugin/ochttp"
-	"go.opencensus.io/stats/view"
-	"go.opencensus.io/trace"
+	"github.com/davidwalter0/go-opencensus/examples/exporter"
+	"github.com/davidwalter0/go-opencensus/plugin/ochttp"
+	"github.com/davidwalter0/go-opencensus/stats/view"
+	"github.com/davidwalter0/go-opencensus/trace"
 )
 
 func main() {

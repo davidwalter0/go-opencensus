@@ -14,7 +14,7 @@
 
 // Package tracecontext contains HTTP propagator for TraceContext standard.
 // See https://github.com/w3c/distributed-tracing for more information.
-package tracecontext // import "go.opencensus.io/plugin/ochttp/propagation/tracecontext"
+package tracecontext // import "github.com/davidwalter0/go-opencensus/plugin/ochttp/propagation/tracecontext"
 
 import (
 	"encoding/hex"
@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"strings"
 
-	"go.opencensus.io/trace"
-	"go.opencensus.io/trace/propagation"
+	"github.com/davidwalter0/go-opencensus/trace"
+	"github.com/davidwalter0/go-opencensus/trace/propagation"
 )
 
 const (

@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"time"
 
-	"go.opencensus.io/stats"
-	"go.opencensus.io/stats/internal"
-	"go.opencensus.io/tag"
+	"github.com/davidwalter0/go-opencensus/stats"
+	"github.com/davidwalter0/go-opencensus/stats/internal"
+	"github.com/davidwalter0/go-opencensus/tag"
 )
 
 func init() {

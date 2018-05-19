@@ -21,10 +21,10 @@ import (
 	"reflect"
 	"testing"
 
-	"go.opencensus.io/internal/testpb"
-	"go.opencensus.io/plugin/ocgrpc"
-	"go.opencensus.io/stats/view"
-	"go.opencensus.io/tag"
+	"github.com/davidwalter0/go-opencensus/internal/testpb"
+	"github.com/davidwalter0/go-opencensus/plugin/ocgrpc"
+	"github.com/davidwalter0/go-opencensus/stats/view"
+	"github.com/davidwalter0/go-opencensus/tag"
 )
 
 var keyAccountId, _ = tag.NewKey("account_id")

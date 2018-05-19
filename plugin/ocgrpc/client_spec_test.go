@@ -20,8 +20,8 @@ import (
 	"strings"
 	"testing"
 
-	"go.opencensus.io/stats"
-	"go.opencensus.io/stats/view"
+	"github.com/davidwalter0/go-opencensus/stats"
+	"github.com/davidwalter0/go-opencensus/stats/view"
 )
 
 var colSep = regexp.MustCompile(`\s*\|\s*`)

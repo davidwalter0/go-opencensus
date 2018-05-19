@@ -31,9 +31,9 @@ import (
 	"testing"
 	"time"
 
-	"go.opencensus.io/plugin/ochttp/propagation/b3"
-	"go.opencensus.io/plugin/ochttp/propagation/tracecontext"
-	"go.opencensus.io/trace"
+	"github.com/davidwalter0/go-opencensus/plugin/ochttp/propagation/b3"
+	"github.com/davidwalter0/go-opencensus/plugin/ochttp/propagation/tracecontext"
+	"github.com/davidwalter0/go-opencensus/trace"
 )
 
 type testTransport struct {

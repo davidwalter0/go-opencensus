@@ -19,12 +19,12 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"go.opencensus.io/internal"
-	"go.opencensus.io/plugin/ochttp"
+	"github.com/davidwalter0/go-opencensus/internal"
+	"github.com/davidwalter0/go-opencensus/plugin/ochttp"
 
 	timestamppb "github.com/golang/protobuf/ptypes/timestamp"
 	wrapperspb "github.com/golang/protobuf/ptypes/wrappers"
-	"go.opencensus.io/trace"
+	"github.com/davidwalter0/go-opencensus/trace"
 	tracepb "google.golang.org/genproto/googleapis/devtools/cloudtrace/v2"
 	statuspb "google.golang.org/genproto/googleapis/rpc/status"
 )

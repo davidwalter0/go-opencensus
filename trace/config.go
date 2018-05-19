@@ -14,7 +14,7 @@
 
 package trace
 
-import "go.opencensus.io/trace/internal"
+import "github.com/davidwalter0/go-opencensus/trace/internal"
 
 // Config represents the global tracing configuration.
 type Config struct {

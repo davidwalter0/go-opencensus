@@ -17,7 +17,7 @@ package trace_test
 import (
 	"fmt"
 
-	"go.opencensus.io/trace"
+	"github.com/davidwalter0/go-opencensus/trace"
 	"golang.org/x/net/context"
 )
 

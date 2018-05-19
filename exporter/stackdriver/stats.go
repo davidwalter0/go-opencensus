@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"go.opencensus.io/internal"
-	"go.opencensus.io/stats"
-	"go.opencensus.io/stats/view"
-	"go.opencensus.io/tag"
-	"go.opencensus.io/trace"
+	"github.com/davidwalter0/go-opencensus/internal"
+	"github.com/davidwalter0/go-opencensus/stats"
+	"github.com/davidwalter0/go-opencensus/stats/view"
+	"github.com/davidwalter0/go-opencensus/tag"
+	"github.com/davidwalter0/go-opencensus/trace"
 
 	"cloud.google.com/go/monitoring/apiv3"
 	"github.com/golang/protobuf/ptypes/timestamp"
@@ -157,7 +157,7 @@ func (e *statsExporter) Flush() {
 func (e *statsExporter) uploadStats(vds []*view.Data) error {
 	ctx, span := trace.StartSpan(
 		context.Background(),
-		"go.opencensus.io/exporter/stackdriver.uploadStats",
+		"github.com/davidwalter0/go-opencensus/exporter/stackdriver.uploadStats",
 		trace.WithSampler(trace.NeverSample()),
 	)
 	defer span.End()

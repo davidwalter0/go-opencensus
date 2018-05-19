@@ -22,7 +22,7 @@ import (
 	"time"
 
 	tracingclient "cloud.google.com/go/trace/apiv2"
-	"go.opencensus.io/trace"
+	"github.com/davidwalter0/go-opencensus/trace"
 	"google.golang.org/api/support/bundler"
 	tracepb "google.golang.org/genproto/googleapis/devtools/cloudtrace/v2"
 )
@@ -119,7 +119,7 @@ func (e *traceExporter) uploadSpans(spans []*trace.SpanData) {
 	// Create a never-sampled span to prevent traces associated with exporter.
 	ctx, span := trace.StartSpan( // TODO: add timeouts
 		context.Background(),
-		"go.opencensus.io/exporter/stackdriver.uploadSpans",
+		"github.com/davidwalter0/go-opencensus/exporter/stackdriver.uploadSpans",
 		trace.WithSampler(trace.NeverSample()),
 	)
 	defer span.End()

@@ -19,7 +19,7 @@ import (
 	"context"
 	"log"
 
-	"go.opencensus.io/tag"
+	"github.com/davidwalter0/go-opencensus/tag"
 )
 
 var (

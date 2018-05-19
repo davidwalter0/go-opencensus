@@ -19,8 +19,8 @@ import (
 	"context"
 	"testing"
 
-	"go.opencensus.io/stats"
-	"go.opencensus.io/tag"
+	"github.com/davidwalter0/go-opencensus/stats"
+	"github.com/davidwalter0/go-opencensus/tag"
 )
 
 func Test_View_MeasureFloat64_AggregationDistribution(t *testing.T) {

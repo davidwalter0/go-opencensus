@@ -18,7 +18,7 @@ import (
 	"log"
 	"net/http"
 
-	"go.opencensus.io/zpages"
+	"github.com/davidwalter0/go-opencensus/zpages"
 )
 
 func Example() {

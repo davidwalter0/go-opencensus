@@ -48,4 +48,4 @@ lines to the top of the function:
 StartSpan will create a new top-level span if the context
 doesn't contain another span, otherwise it will create a child span.
 */
-package trace // import "go.opencensus.io/trace"
+package trace // import "github.com/davidwalter0/go-opencensus/trace"

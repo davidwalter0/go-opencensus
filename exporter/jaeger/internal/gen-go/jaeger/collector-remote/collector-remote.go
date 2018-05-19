@@ -15,7 +15,7 @@ import (
 	"strings"
 
 	"git.apache.org/thrift.git/lib/go/thrift"
-	"go.opencensus.io/exporter/jaeger/internal/gen-go/jaeger"
+	"github.com/davidwalter0/go-opencensus/exporter/jaeger/internal/gen-go/jaeger"
 )
 
 func Usage() {

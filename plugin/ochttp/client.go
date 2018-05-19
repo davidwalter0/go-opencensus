@@ -17,8 +17,8 @@ package ochttp
 import (
 	"net/http"
 
-	"go.opencensus.io/trace"
-	"go.opencensus.io/trace/propagation"
+	"github.com/davidwalter0/go-opencensus/trace"
+	"github.com/davidwalter0/go-opencensus/trace/propagation"
 )
 
 // Transport is an http.RoundTripper that instruments all outgoing requests with

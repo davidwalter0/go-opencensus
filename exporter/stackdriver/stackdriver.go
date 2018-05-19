@@ -14,8 +14,8 @@
 
 // Package stackdriver has moved.
 //
-// Deprecated: Use contrib.go.opencensus.io/exporter/stackdriver instead.
-package stackdriver // import "go.opencensus.io/exporter/stackdriver"
+// Deprecated: Use contrib.go-opencensus/exporter/stackdriver instead.
+package stackdriver // import "github.com/davidwalter0/go-opencensus/exporter/stackdriver"
 
 import (
 	"context"
@@ -25,8 +25,8 @@ import (
 	"time"
 
 	traceapi "cloud.google.com/go/trace/apiv2"
-	"go.opencensus.io/stats/view"
-	"go.opencensus.io/trace"
+	"github.com/davidwalter0/go-opencensus/stats/view"
+	"github.com/davidwalter0/go-opencensus/trace"
 	"golang.org/x/oauth2/google"
 	"google.golang.org/api/option"
 	monitoredrespb "google.golang.org/genproto/googleapis/api/monitoredres"

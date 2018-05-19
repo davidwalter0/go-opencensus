@@ -19,9 +19,9 @@ import (
 	"net/http"
 	"net/url"
 
-	"go.opencensus.io/plugin/ochttp/propagation/b3"
-	"go.opencensus.io/trace"
-	"go.opencensus.io/trace/propagation"
+	"github.com/davidwalter0/go-opencensus/plugin/ochttp/propagation/b3"
+	"github.com/davidwalter0/go-opencensus/trace"
+	"github.com/davidwalter0/go-opencensus/trace/propagation"
 )
 
 // TODO(jbd): Add godoc examples.
